@@ -9,7 +9,7 @@ function converter(){
 
     let c1= document.getElementById('c').value
 
-    document.getElementById('resultado').innerHTML = 'temperatura em Celsius é 
+    document.getElementById('resultado').innerHTML = 'temperatura em Celsius é '+((c-32)*5)/9
 }
 
 
